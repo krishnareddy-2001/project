@@ -1,0 +1,73 @@
+apt-get update
+    2  mkdir p
+    3  cd p
+    4  git clone https://github.com/shreys7/django-todo.git
+    5  ls
+    6  cd django-todo/
+    7  ls
+    8  apt-get update
+    9  apt install python3-django
+   10  python3 manage.py makemigrations
+   11  python3 manage.py migrate
+   12  python3 manage.py createsuperuser
+   13  vi todoApp/settings.py 
+   14  ls
+   15  vi Dockerfile
+   16  docker --version
+   17  apt installdocke.io
+   18  apt install docker.io -y
+   19  docker build . -t todo
+   20  vi Dockerfile
+   21  docker build . -t todo
+   22  vi Dockerfile
+   23  docker build . -t todo
+   24  docker images
+   25  docker run -d -p 8001:8001 51c9c474460a
+   26  docker rm -f 1405516282b00ef9011d7d34d68a44de3a7ad88a5049736a0b1af7b09c0df03a
+   27  docker images
+   28  docker rm i 51c9c474460a
+   29  docker rmi 51c9c474460a
+   30  docker images
+   31  apt-get update
+   32  apt install fontconfig openjdk-17-jre
+   33  apt install jenkins
+   34  sudo apt-get install jenkins
+   35  jenkins --version
+   36  apt-get install jenkin
+   37  apt-get install jenkins
+   38  apt-get install jenkins.io
+   39  sudo apt install jenkins
+   40  wget -q -O - https://pkg.jenkins.io/debian-stable/jenkins.io.key |sudo gpg --dearmor -o /usr/share/keyrings/jenkins.gpg
+   41  sudo sh -c 'echo deb [signed-by=/usr/share/keyrings/jenkins.gpg] http://pkg.jenkins.io/debian-stable binary/ > /etc/apt/sources.list.d/jenkins.list'
+   42  sudo apt update
+   43  sudo apt install jenkins
+   44  sudo systemctl enable jenkins
+   45  sudo systemctl start jenkins
+   46  sudo systemctl status jenkins
+   47  cat /var/lib/jenkins/secrets/initialAdminPassword
+   48  pwd
+   49  cd ..
+   50  pwd
+   51  cd p
+   52  ls
+   53  cd django-todo/
+   54  vi Dockerfile 
+   55  systemctl restart jenkins
+   56  systemctl --help
+   57  systemctl clean jenkins
+   58  systemctl reload jenkins
+   59  systemctl status jenkins
+   60  jenkins --version
+   61  apt rm jenkins
+   62  sysytemctl stop jenkins
+   63  systemctl stop jenkins
+   64  apt-get remove - purge jenkins
+   65  apt-get remove -purge jenkins
+   66  apt-get remove jenkins
+   67  apt-get -purge jenkins
+   68  jenkins --version
+   69  apt install jenkins
+   70  systemctl enable jenkins
+   71  systemctl start jenkins
+   72  systemctl status jenkins
+   73  ls
