@@ -1,0 +1,13 @@
+#to run django project on ubuntu server ec2 instance after cloning the project
+ apt-get update
+ mkdir p
+ cd p
+ git clone https://github.com/shreys7/django-todo.git
+ cd django-todo/
+ #open vi todoApp/settings.py edit ALLOWED_HOST to ['*'] to all ip
+ apt-get update
+ apt install python3-django
+ python3 manage.py makemigrations
+ python3 manage.py migrate
+ python3 manage.py createsuperuser
+ python3 manage.py runserver "0.0.0.0:8000"
