@@ -1,0 +1,18 @@
+#to run django project on docker ec2 ubuntu instance
+ apt-get update
+ mkdir p
+ cd p
+ git clone https://github.com/shreys7/django-todo.git
+ cd django-todo/
+ #open vi todoApp/settings.py edit ALLOWED_HOST to ['*'] to all ip
+ #create Dockerfile
+ vi Dockerfile
+ FROM python:3.0
+ RUN pip install django==3.0
+ COPY . .
+ CMD ["python","manage.py","runserver","0.0.0.0:8000"]
+ apt install docker.io -y
+ docker build . -t todo
+ docker images
+ docker run -d -p 8000:8000 <imageid>
+ successfully run ip:8000
